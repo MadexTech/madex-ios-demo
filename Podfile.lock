@@ -1,0 +1,28 @@
+PODS:
+  - MadexConsentManager (1.0.0):
+    - SspnetConsentManager
+  - MadexSDK (1.0.0):
+    - SspnetCore
+  - SspnetConsentManager (1.0.0)
+  - SspnetCore (1.0.0)
+
+DEPENDENCIES:
+  - MadexConsentManager
+  - MadexSDK
+
+SPEC REPOS:
+  trunk:
+    - MadexConsentManager
+    - MadexSDK
+    - SspnetConsentManager
+    - SspnetCore
+
+SPEC CHECKSUMS:
+  MadexConsentManager: 45e43a07c23c3dcf0b07a75234d6266b712e2c7b
+  MadexSDK: 9ae383da296baa1fa941340e1b807aa0e3628c2f
+  SspnetConsentManager: 74e3385870933a1b8267b1d74f5c1723b961b500
+  SspnetCore: 9acd0551656642b0ac791c6881990d05d96fae9b
+
+PODFILE CHECKSUM: 85e48b78e40affe7f59dc243c0366ae36f794147
+
+COCOAPODS: 1.13.0
