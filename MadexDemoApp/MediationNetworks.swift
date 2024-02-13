@@ -13,6 +13,7 @@ class MediationNetworks {
     static let yandex = "Yandex"
     static let ironsource = "IronSource"
     static let mintegral = "Mintegral"
+    static let applovin = "Applovin"
     
-    static let values = [madex, yandex, ironsource]
+    static let values = [madex, applovin, ironsource, yandex]
 }

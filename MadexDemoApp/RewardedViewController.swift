@@ -87,6 +87,9 @@ class RewardedViewController:UIViewController {
         case MediationNetworks.mintegral:
             placementName = EnvironmentVariables.mintegraleRewardedlUnitID
             break
+        case MediationNetworks.applovin:
+            placementName = EnvironmentVariables.applovinRewardedlUnitID
+            break
         default:
             break
         }
@@ -97,27 +100,27 @@ class RewardedViewController:UIViewController {
 
 
 extension RewardedViewController:RewardedDelegate {
-    func onRewardedLoaded() {
+    func onRewardedLoaded(_ adPayload:AdPayload) {
         addLog("onRewardedLoaded: Ad loaded and ready to show.")
     }
     
-    func onRewardedLoadFailed(_ error: AdException) {
+    func onRewardedLoadFailed(_ adPayload:AdPayload, _ error: AdException) {
         addLog("onRewardedLoadFailed: Ad was not loaded. \(error.localizedDescription) (\(error.caused)).")
     }
     
-    func onRewardedShown() {
+    func onRewardedShown(_ adPayload:AdPayload) {
         addLog("onRewardedShown: Ad shown.")
     }
     
-    func onRewardedShowFailed(_ error: AdException) {
+    func onRewardedShowFailed(_ adPayload:AdPayload, _ error: AdException) {
         addLog("onRewardedShowFailed: Ad was not shown. \(error.localizedDescription) (\(error.caused)).")
     }
     
-    func onRewardedClosed() {
+    func onRewardedClosed(_ adPayload:AdPayload) {
         addLog("onRewardedClosed: Ad closed.")
     }
     
-    func onRewardedFinished() {
+    func onRewardedFinished(_ adPayload:AdPayload) {
         addLog("onRewardedFinished: Ad was finished.")
     }
 }

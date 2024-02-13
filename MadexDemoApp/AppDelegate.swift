@@ -17,7 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         Madex.setCustomParams("appStoreAppID", EnvironmentVariables.appStoreAppID)
         Madex.enableDebug(true)
-        Madex.initialize(publisherID: EnvironmentVariables.publisherID)
+        Madex.initialize(publisherID: EnvironmentVariables.publisherID) { error in
+            
+        }
         
         return true
     }

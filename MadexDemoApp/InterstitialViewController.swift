@@ -86,6 +86,9 @@ class InterstitialViewController:UIViewController {
         case MediationNetworks.mintegral:
             placementName = EnvironmentVariables.mintegralInterstitialUnitID
             break
+        case MediationNetworks.applovin:
+            placementName = EnvironmentVariables.applovinInterstitialUnitID
+            break
         default:
             break
         }
@@ -95,23 +98,23 @@ class InterstitialViewController:UIViewController {
 
 
 extension InterstitialViewController:InterstitialDelegate {
-    func onInterstitialLoaded() {
+    func onInterstitialLoaded(_ adPayload:AdPayload) {
         addLog("onInterstitialLoaded: Ad loaded and ready to show.")
     }
     
-    func onInterstitialLoadFailed(_ error: AdException) {
+    func onInterstitialLoadFailed(_ adPayload:AdPayload, _ error: AdException) {
         addLog("onInterstitialLoadFailed: Ad was not loaded. \(error.localizedDescription) (\(error.caused)).")
     }
     
-    func onInterstitialShown() {
+    func onInterstitialShown(_ adPayload:AdPayload) {
         addLog("onInterstitialShown: Ad shown.")
     }
     
-    func onInterstitialShowFailed(_ error: AdException) {
+    func onInterstitialShowFailed(_ adPayload:AdPayload, _ error: AdException) {
         addLog("onInterstitialLoadFailed: Ad was not shown. \(error.localizedDescription) (\(error.caused)).")
     }
     
-    func onInterstitialClosed() {
+    func onInterstitialClosed(_ adPayload:AdPayload) {
         addLog("onInterstitialClosed: Ad closed.")
     }
 }

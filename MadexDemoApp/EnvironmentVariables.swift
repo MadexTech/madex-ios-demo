@@ -15,6 +15,8 @@ class EnvironmentVariables {
     static let yandexRewardedlUnitID = "7e6334fc-ef08-45e9-9581-d18026a2fadb"
     static let ironsourceInterstitialUnitID = "82e3bba6-6add-4594-8bb7-f96fef5b252d"
     static let ironsourceRewardedlUnitID = "42e716e1-91c0-47e0-9832-c36ada6fa836"
+    static let applovinInterstitialUnitID = "ff4e2a4b-ec81-4cf7-956c-ef0dc3493877"
+    static let applovinRewardedlUnitID = "c108f92a-6621-41a7-9e33-2f5a564e2e24"
     static let mintegralInterstitialUnitID = ""
     static let mintegraleRewardedlUnitID = ""
     static let appStoreAppID = ""

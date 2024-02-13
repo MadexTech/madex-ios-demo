@@ -1,28 +1,149 @@
 PODS:
+  - AppLovinSDK (12.1.0)
+  - DivKit (24.2.0):
+    - DivKit_Base (= 24.2.0)
+    - DivKit_BaseTiny (= 24.2.0)
+    - DivKit_BaseUI (= 24.2.0)
+    - DivKit_CommonCore (= 24.2.0)
+    - DivKit_LayoutKit (= 24.2.0)
+    - DivKit_LayoutKitInterface (= 24.2.0)
+    - DivKit_Networking (= 24.2.0)
+    - DivKit_Serialization (= 24.2.0)
+  - DivKit_Base (24.2.0):
+    - DivKit_BaseTiny (= 24.2.0)
+    - DivKit_BaseUI (= 24.2.0)
+  - DivKit_BaseTiny (24.2.0)
+  - DivKit_BaseUI (24.2.0):
+    - DivKit_BaseTiny (= 24.2.0)
+  - DivKit_CommonCore (24.2.0):
+    - DivKit_Base (= 24.2.0)
+    - DivKit_BaseTiny (= 24.2.0)
+  - DivKit_LayoutKit (24.2.0):
+    - DivKit_BaseTiny (= 24.2.0)
+    - DivKit_BaseUI (= 24.2.0)
+    - DivKit_CommonCore (= 24.2.0)
+    - DivKit_LayoutKitInterface (= 24.2.0)
+  - DivKit_LayoutKitInterface (24.2.0):
+    - DivKit_Base (= 24.2.0)
+    - DivKit_BaseTiny (= 24.2.0)
+    - DivKit_BaseUI (= 24.2.0)
+  - DivKit_Networking (24.2.0):
+    - DivKit_Base (= 24.2.0)
+  - DivKit_Serialization (24.2.0):
+    - DivKit_CommonCore (= 24.2.0)
+  - IronSourceSDK (7.4.0.0)
   - MadexConsentManager (1.0.0):
     - SspnetConsentManager
-  - MadexSDK (1.0.0):
+  - MadexSDK (1.1.0):
+    - SspnetCore
+  - MintegralAdSDK/BidNativeAd (7.5.6):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/BidNewInterstitialAd (7.5.6):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/NewInterstitialAd
+  - MintegralAdSDK/BidRewardVideoAd (7.5.6):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/RewardVideoAd
+  - MintegralAdSDK/InterstitialVideoAd (7.5.6):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/NativeAd (7.5.6)
+  - MintegralAdSDK/NewInterstitialAd (7.5.6):
+    - MintegralAdSDK/InterstitialVideoAd
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/RewardVideoAd (7.5.6):
+    - MintegralAdSDK/NativeAd
+  - SspnetApplovinAdapter (1.0.0):
+    - AppLovinSDK (~> 12.1.0)
     - SspnetCore
   - SspnetConsentManager (1.0.0)
-  - SspnetCore (1.0.0)
+  - SspnetCore (1.1.0)
+  - SspnetIronSourceAdapter (1.1.0):
+    - IronSourceSDK (~> 7.4.0.0)
+    - SspnetCore
+  - SspnetMintegralAdapter (1.1.0):
+    - MintegralAdSDK/BidNewInterstitialAd
+    - MintegralAdSDK/BidRewardVideoAd
+    - SspnetCore
+  - SspnetYandexAdapter (1.1.0):
+    - SspnetCore
+    - YandexMobileAds (~> 6.0.0)
+    - YandexMobileAdsInstream (~> 0.20.0)
+  - YandexMobileAds (6.0.0):
+    - DivKit (~> 24.2)
+    - YandexMobileAds/Static (= 6.0.0)
+  - YandexMobileAds/Static (6.0.0):
+    - DivKit (~> 24.2)
+    - YandexMobileMetrica (< 5.0.0, >= 4.0.0)
+  - YandexMobileAdsInstream (0.20.0):
+    - YandexMobileAds (~> 6.0.0)
+  - YandexMobileMetrica (4.5.2):
+    - YandexMobileMetrica/Static (= 4.5.2)
+  - YandexMobileMetrica/Static (4.5.2):
+    - YandexMobileMetrica/Static/Core (= 4.5.2)
+    - YandexMobileMetrica/Static/Crashes (= 4.5.2)
+  - YandexMobileMetrica/Static/Core (4.5.2)
+  - YandexMobileMetrica/Static/Crashes (4.5.2):
+    - YandexMobileMetrica/Static/Core
 
 DEPENDENCIES:
-  - MadexConsentManager
-  - MadexSDK
+  - MadexConsentManager (= 1.0.0)
+  - MadexSDK (= 1.1.0)
+  - SspnetApplovinAdapter (= 1.0.0)
+  - SspnetIronSourceAdapter (= 1.1.0)
+  - SspnetMintegralAdapter (= 1.1.0)
+  - SspnetYandexAdapter (= 1.1.0)
 
 SPEC REPOS:
   trunk:
+    - AppLovinSDK
+    - DivKit
+    - DivKit_Base
+    - DivKit_BaseTiny
+    - DivKit_BaseUI
+    - DivKit_CommonCore
+    - DivKit_LayoutKit
+    - DivKit_LayoutKitInterface
+    - DivKit_Networking
+    - DivKit_Serialization
+    - IronSourceSDK
     - MadexConsentManager
     - MadexSDK
+    - MintegralAdSDK
+    - SspnetApplovinAdapter
     - SspnetConsentManager
     - SspnetCore
+    - SspnetIronSourceAdapter
+    - SspnetMintegralAdapter
+    - SspnetYandexAdapter
+    - YandexMobileAds
+    - YandexMobileAdsInstream
+    - YandexMobileMetrica
 
 SPEC CHECKSUMS:
+  AppLovinSDK: 179d509c258e01a3a77eb8416f0ba843a12ed322
+  DivKit: f2151bd0bfc67e0b4ad949e8cd1caa7379253bef
+  DivKit_Base: 263499ebc77c217314d4bee1b374781c3643c8a9
+  DivKit_BaseTiny: 42535fa725058957129f231b4b52d394ed4d7ea9
+  DivKit_BaseUI: cb86da6096de4a3bb670b4196ddeed0334acd671
+  DivKit_CommonCore: dd26a3f7dcc9010ec3a4ed3c5c3718e7a882536a
+  DivKit_LayoutKit: cdcfa56dd6a88495703350bb63f410dde426435c
+  DivKit_LayoutKitInterface: f0dae7b2e7a024d0340914490b1c06c0e6a926ae
+  DivKit_Networking: cd028559a160baa76c43fda52174f2f83c87b747
+  DivKit_Serialization: b4d8a4672de9134889c5f92f5f7e04e04112e660
+  IronSourceSDK: 31bf34fdf92756dde41c00d10e3d3344461cbe2e
   MadexConsentManager: 45e43a07c23c3dcf0b07a75234d6266b712e2c7b
-  MadexSDK: 9ae383da296baa1fa941340e1b807aa0e3628c2f
+  MadexSDK: f373b094dfbdb6bd3d47a1e8f5b3304ef8a69a72
+  MintegralAdSDK: 6a3058c0b33a2458744ffe0de1a9737e1507b99d
+  SspnetApplovinAdapter: b0fbfd11740c8c673d1262717d4eb42d6554e918
   SspnetConsentManager: 74e3385870933a1b8267b1d74f5c1723b961b500
-  SspnetCore: 9acd0551656642b0ac791c6881990d05d96fae9b
+  SspnetCore: aa6347103b38d6c674bae772e44c2dd085bfaa9f
+  SspnetIronSourceAdapter: ebd8a85d3ddfa2539901367a896da6fb6014a40f
+  SspnetMintegralAdapter: c55b6dec16a5b8bc98b4c43d206df4c426f0b272
+  SspnetYandexAdapter: 692e0dde57f8b3c8fb51cbdbf8b4b99426dc8a4c
+  YandexMobileAds: e1baa34843127146fdd60483236db86b84ffb70a
+  YandexMobileAdsInstream: 956a63bfb06b0d9ceeb1b72d67b4a4e0b5d68b1c
+  YandexMobileMetrica: f5368ee93f286c793d73b58da00929babfc897c1
 
-PODFILE CHECKSUM: 85e48b78e40affe7f59dc243c0366ae36f794147
+PODFILE CHECKSUM: 807afe2447ce38a227856c257300f6ef68737c97
 
 COCOAPODS: 1.13.0
