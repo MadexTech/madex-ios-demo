@@ -34,7 +34,7 @@ PODS:
   - IronSourceSDK (7.4.0.0)
   - MadexConsentManager (1.0.0):
     - SspnetConsentManager
-  - MadexSDK (1.1.0):
+  - MadexSDK (1.2.0):
     - SspnetCore
   - MintegralAdSDK/BidNativeAd (7.5.6):
     - MintegralAdSDK/NativeAd
@@ -56,7 +56,7 @@ PODS:
     - AppLovinSDK (~> 12.1.0)
     - SspnetCore
   - SspnetConsentManager (1.0.0)
-  - SspnetCore (1.1.0)
+  - SspnetCore (1.2.0)
   - SspnetIronSourceAdapter (1.1.0):
     - IronSourceSDK (~> 7.4.0.0)
     - SspnetCore
@@ -87,7 +87,7 @@ PODS:
 
 DEPENDENCIES:
   - MadexConsentManager (= 1.0.0)
-  - MadexSDK (= 1.1.0)
+  - MadexSDK (= 1.2.0)
   - SspnetApplovinAdapter (= 1.0.0)
   - SspnetIronSourceAdapter (= 1.1.0)
   - SspnetMintegralAdapter (= 1.1.0)
@@ -132,11 +132,11 @@ SPEC CHECKSUMS:
   DivKit_Serialization: b4d8a4672de9134889c5f92f5f7e04e04112e660
   IronSourceSDK: 31bf34fdf92756dde41c00d10e3d3344461cbe2e
   MadexConsentManager: 45e43a07c23c3dcf0b07a75234d6266b712e2c7b
-  MadexSDK: f373b094dfbdb6bd3d47a1e8f5b3304ef8a69a72
+  MadexSDK: 3ca2106c06b027a583675cf45da20e9865af341b
   MintegralAdSDK: 6a3058c0b33a2458744ffe0de1a9737e1507b99d
   SspnetApplovinAdapter: b0fbfd11740c8c673d1262717d4eb42d6554e918
   SspnetConsentManager: 74e3385870933a1b8267b1d74f5c1723b961b500
-  SspnetCore: aa6347103b38d6c674bae772e44c2dd085bfaa9f
+  SspnetCore: 88a71818463beda150314bbe78fa1aa1b92f5b47
   SspnetIronSourceAdapter: ebd8a85d3ddfa2539901367a896da6fb6014a40f
   SspnetMintegralAdapter: c55b6dec16a5b8bc98b4c43d206df4c426f0b272
   SspnetYandexAdapter: 692e0dde57f8b3c8fb51cbdbf8b4b99426dc8a4c
@@ -144,6 +144,6 @@ SPEC CHECKSUMS:
   YandexMobileAdsInstream: 956a63bfb06b0d9ceeb1b72d67b4a4e0b5d68b1c
   YandexMobileMetrica: f5368ee93f286c793d73b58da00929babfc897c1
 
-PODFILE CHECKSUM: 807afe2447ce38a227856c257300f6ef68737c97
+PODFILE CHECKSUM: a25927011fafcb63fcfaeb838ccc5cad193fcc50
 
 COCOAPODS: 1.13.0
