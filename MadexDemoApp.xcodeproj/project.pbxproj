@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A5A595708A55EAB2D0DB973 /* Pods_MadexDemoApp_MadexDemoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C68D51AC771269F232169A /* Pods_MadexDemoApp_MadexDemoAppUITests.framework */; };
 		7425C0DA2B0FE12B009F18E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7425C0D92B0FE12B009F18E5 /* AppDelegate.swift */; };
 		7425C0DE2B0FE12B009F18E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7425C0DD2B0FE12B009F18E5 /* ViewController.swift */; };
 		7425C0E12B0FE12B009F18E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7425C0DF2B0FE12B009F18E5 /* Main.storyboard */; };
@@ -22,9 +23,8 @@
 		7425C1142B0FE395009F18E5 /* DeviceInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7425C10D2B0FE395009F18E5 /* DeviceInfoViewController.swift */; };
 		7425C1152B0FE395009F18E5 /* RewardedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7425C10E2B0FE395009F18E5 /* RewardedViewController.swift */; };
 		7425C1162B0FE395009F18E5 /* EnvironmentVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7425C10F2B0FE395009F18E5 /* EnvironmentVariables.swift */; };
-		828727D71CA2674684C72895 /* Pods_MadexDemoApp_MadexDemoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BD77CC4EBD3FFB463B93F0 /* Pods_MadexDemoApp_MadexDemoAppUITests.framework */; };
-		B6B69A09E8E2337A9882EA65 /* Pods_MadexDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1042A273B311207ABDA4920 /* Pods_MadexDemoApp.framework */; };
-		DE84FEACC00003EDBF3630A3 /* Pods_MadexDemoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F0D083D02954E73117D68A /* Pods_MadexDemoAppTests.framework */; };
+		9C1485A851ED7C3467A0EAD4 /* Pods_MadexDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBF72EAF883842A0BC7D787 /* Pods_MadexDemoApp.framework */; };
+		AD0AC28F5665837D4325A823 /* Pods_MadexDemoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A32A11BE34D8F6514D21490 /* Pods_MadexDemoAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6361E0464F3B27F6FC15FC91 /* Pods-MadexDemoApp-MadexDemoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadexDemoApp-MadexDemoAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MadexDemoApp-MadexDemoAppUITests/Pods-MadexDemoApp-MadexDemoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		69DAED50C41CFEBAB285A1F0 /* Pods-MadexDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadexDemoApp.debug.xcconfig"; path = "Target Support Files/Pods-MadexDemoApp/Pods-MadexDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		33C68D51AC771269F232169A /* Pods_MadexDemoApp_MadexDemoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadexDemoApp_MadexDemoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		496797DB728180C228CC1EAF /* Pods-MadexDemoApp-MadexDemoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadexDemoApp-MadexDemoAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MadexDemoApp-MadexDemoAppUITests/Pods-MadexDemoApp-MadexDemoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5DBF72EAF883842A0BC7D787 /* Pods_MadexDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadexDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		721F1E0E85A3EA8B12880116 /* Pods-MadexDemoApp-MadexDemoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadexDemoApp-MadexDemoAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MadexDemoApp-MadexDemoAppUITests/Pods-MadexDemoApp-MadexDemoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7425C0D62B0FE12B009F18E5 /* MadexDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadexDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7425C0D92B0FE12B009F18E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7425C0DD2B0FE12B009F18E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,13 +68,11 @@
 		7425C10D2B0FE395009F18E5 /* DeviceInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfoViewController.swift; sourceTree = "<group>"; };
 		7425C10E2B0FE395009F18E5 /* RewardedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardedViewController.swift; sourceTree = "<group>"; };
 		7425C10F2B0FE395009F18E5 /* EnvironmentVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentVariables.swift; sourceTree = "<group>"; };
-		9EFCF5E8298FD20E28505E04 /* Pods-MadexDemoApp-MadexDemoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadexDemoApp-MadexDemoAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MadexDemoApp-MadexDemoAppUITests/Pods-MadexDemoApp-MadexDemoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		A1042A273B311207ABDA4920 /* Pods_MadexDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadexDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEA1BD775F02C71366917C54 /* Pods-MadexDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadexDemoApp.release.xcconfig"; path = "Target Support Files/Pods-MadexDemoApp/Pods-MadexDemoApp.release.xcconfig"; sourceTree = "<group>"; };
-		D45076D00EC22902EF6769BD /* Pods-MadexDemoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadexDemoAppTests.release.xcconfig"; path = "Target Support Files/Pods-MadexDemoAppTests/Pods-MadexDemoAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		D68399BE6CB2770B5E6046AE /* Pods-MadexDemoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadexDemoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MadexDemoAppTests/Pods-MadexDemoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F8F0D083D02954E73117D68A /* Pods_MadexDemoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadexDemoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9BD77CC4EBD3FFB463B93F0 /* Pods_MadexDemoApp_MadexDemoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadexDemoApp_MadexDemoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A32A11BE34D8F6514D21490 /* Pods_MadexDemoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadexDemoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A54EDC49C601E8CC3AB91AF /* Pods-MadexDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadexDemoApp.release.xcconfig"; path = "Target Support Files/Pods-MadexDemoApp/Pods-MadexDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		93FACEBEB022808A2C6383C1 /* Pods-MadexDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadexDemoApp.debug.xcconfig"; path = "Target Support Files/Pods-MadexDemoApp/Pods-MadexDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CD5C28FD7BD392B8E38D5261 /* Pods-MadexDemoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadexDemoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MadexDemoAppTests/Pods-MadexDemoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F085378EBA4534A0302A0DD9 /* Pods-MadexDemoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadexDemoAppTests.release.xcconfig"; path = "Target Support Files/Pods-MadexDemoAppTests/Pods-MadexDemoAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6B69A09E8E2337A9882EA65 /* Pods_MadexDemoApp.framework in Frameworks */,
+				9C1485A851ED7C3467A0EAD4 /* Pods_MadexDemoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE84FEACC00003EDBF3630A3 /* Pods_MadexDemoAppTests.framework in Frameworks */,
+				AD0AC28F5665837D4325A823 /* Pods_MadexDemoAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,19 +96,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				828727D71CA2674684C72895 /* Pods_MadexDemoApp_MadexDemoAppUITests.framework in Frameworks */,
+				4A5A595708A55EAB2D0DB973 /* Pods_MadexDemoApp_MadexDemoAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15B6456C4A91C5ABF3BC11C4 /* Frameworks */ = {
+		0D8A48156D08A484B6C0270D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A1042A273B311207ABDA4920 /* Pods_MadexDemoApp.framework */,
-				F9BD77CC4EBD3FFB463B93F0 /* Pods_MadexDemoApp_MadexDemoAppUITests.framework */,
-				F8F0D083D02954E73117D68A /* Pods_MadexDemoAppTests.framework */,
+				5DBF72EAF883842A0BC7D787 /* Pods_MadexDemoApp.framework */,
+				33C68D51AC771269F232169A /* Pods_MadexDemoApp_MadexDemoAppUITests.framework */,
+				8A32A11BE34D8F6514D21490 /* Pods_MadexDemoAppTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,7 +121,7 @@
 				7425C0F92B0FE12C009F18E5 /* MadexDemoAppUITests */,
 				7425C0D72B0FE12B009F18E5 /* Products */,
 				9FBBB03BA220146BFE3753FB /* Pods */,
-				15B6456C4A91C5ABF3BC11C4 /* Frameworks */,
+				0D8A48156D08A484B6C0270D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,12 +175,12 @@
 		9FBBB03BA220146BFE3753FB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				69DAED50C41CFEBAB285A1F0 /* Pods-MadexDemoApp.debug.xcconfig */,
-				BEA1BD775F02C71366917C54 /* Pods-MadexDemoApp.release.xcconfig */,
-				9EFCF5E8298FD20E28505E04 /* Pods-MadexDemoApp-MadexDemoAppUITests.debug.xcconfig */,
-				6361E0464F3B27F6FC15FC91 /* Pods-MadexDemoApp-MadexDemoAppUITests.release.xcconfig */,
-				D68399BE6CB2770B5E6046AE /* Pods-MadexDemoAppTests.debug.xcconfig */,
-				D45076D00EC22902EF6769BD /* Pods-MadexDemoAppTests.release.xcconfig */,
+				93FACEBEB022808A2C6383C1 /* Pods-MadexDemoApp.debug.xcconfig */,
+				8A54EDC49C601E8CC3AB91AF /* Pods-MadexDemoApp.release.xcconfig */,
+				721F1E0E85A3EA8B12880116 /* Pods-MadexDemoApp-MadexDemoAppUITests.debug.xcconfig */,
+				496797DB728180C228CC1EAF /* Pods-MadexDemoApp-MadexDemoAppUITests.release.xcconfig */,
+				CD5C28FD7BD392B8E38D5261 /* Pods-MadexDemoAppTests.debug.xcconfig */,
+				F085378EBA4534A0302A0DD9 /* Pods-MadexDemoAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -192,12 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7425C1002B0FE12C009F18E5 /* Build configuration list for PBXNativeTarget "MadexDemoApp" */;
 			buildPhases = (
-				6C2832D95DD3F92F52C360F4 /* [CP] Check Pods Manifest.lock */,
+				35E6F24E2C20CDC044683B6C /* [CP] Check Pods Manifest.lock */,
 				7425C0D22B0FE12B009F18E5 /* Sources */,
 				7425C0D32B0FE12B009F18E5 /* Frameworks */,
 				7425C0D42B0FE12B009F18E5 /* Resources */,
-				EE18959E014AB5B3A9277106 /* [CP] Embed Pods Frameworks */,
-				02E1B4B83FC76E4C1A252FFC /* [CP] Copy Pods Resources */,
+				02F1B968F9FC0F0DBDCC1150 /* [CP] Embed Pods Frameworks */,
+				7D44C5A2D9B7922802079B72 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,7 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7425C1032B0FE12C009F18E5 /* Build configuration list for PBXNativeTarget "MadexDemoAppTests" */;
 			buildPhases = (
-				67D0BC0706FBF34C43716B1F /* [CP] Check Pods Manifest.lock */,
+				2E1246726AF71DF5F66AC8EF /* [CP] Check Pods Manifest.lock */,
 				7425C0E82B0FE12C009F18E5 /* Sources */,
 				7425C0E92B0FE12C009F18E5 /* Frameworks */,
 				7425C0EA2B0FE12C009F18E5 /* Resources */,
@@ -231,12 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7425C1062B0FE12C009F18E5 /* Build configuration list for PBXNativeTarget "MadexDemoAppUITests" */;
 			buildPhases = (
-				C7603A16B5B3E07DCB3CEA91 /* [CP] Check Pods Manifest.lock */,
+				C2B9AE8BA8E7BC8CD441CE80 /* [CP] Check Pods Manifest.lock */,
 				7425C0F22B0FE12C009F18E5 /* Sources */,
 				7425C0F32B0FE12C009F18E5 /* Frameworks */,
 				7425C0F42B0FE12C009F18E5 /* Resources */,
-				455A9A98A9E1AED6691E53F0 /* [CP] Embed Pods Frameworks */,
-				BFFAF8CDD5ACC8DC392D79DC /* [CP] Copy Pods Resources */,
+				0E16EA23C30C3FE3AD4628C2 /* [CP] Embed Pods Frameworks */,
+				D20A17AD0E7B6A8E27A75685 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -319,24 +319,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		02E1B4B83FC76E4C1A252FFC /* [CP] Copy Pods Resources */ = {
+		02F1B968F9FC0F0DBDCC1150 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MadexDemoApp/Pods-MadexDemoApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MadexDemoApp/Pods-MadexDemoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MadexDemoApp/Pods-MadexDemoApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MadexDemoApp/Pods-MadexDemoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MadexDemoApp/Pods-MadexDemoApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MadexDemoApp/Pods-MadexDemoApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		455A9A98A9E1AED6691E53F0 /* [CP] Embed Pods Frameworks */ = {
+		0E16EA23C30C3FE3AD4628C2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,7 +353,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MadexDemoApp-MadexDemoAppUITests/Pods-MadexDemoApp-MadexDemoAppUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		67D0BC0706FBF34C43716B1F /* [CP] Check Pods Manifest.lock */ = {
+		2E1246726AF71DF5F66AC8EF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,7 +375,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6C2832D95DD3F92F52C360F4 /* [CP] Check Pods Manifest.lock */ = {
+		35E6F24E2C20CDC044683B6C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -397,24 +397,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BFFAF8CDD5ACC8DC392D79DC /* [CP] Copy Pods Resources */ = {
+		7D44C5A2D9B7922802079B72 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MadexDemoApp-MadexDemoAppUITests/Pods-MadexDemoApp-MadexDemoAppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MadexDemoApp/Pods-MadexDemoApp-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MadexDemoApp-MadexDemoAppUITests/Pods-MadexDemoApp-MadexDemoAppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MadexDemoApp/Pods-MadexDemoApp-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MadexDemoApp-MadexDemoAppUITests/Pods-MadexDemoApp-MadexDemoAppUITests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MadexDemoApp/Pods-MadexDemoApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C7603A16B5B3E07DCB3CEA91 /* [CP] Check Pods Manifest.lock */ = {
+		C2B9AE8BA8E7BC8CD441CE80 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -436,21 +436,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EE18959E014AB5B3A9277106 /* [CP] Embed Pods Frameworks */ = {
+		D20A17AD0E7B6A8E27A75685 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MadexDemoApp/Pods-MadexDemoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MadexDemoApp-MadexDemoAppUITests/Pods-MadexDemoApp-MadexDemoAppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MadexDemoApp/Pods-MadexDemoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MadexDemoApp-MadexDemoAppUITests/Pods-MadexDemoApp-MadexDemoAppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MadexDemoApp/Pods-MadexDemoApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MadexDemoApp-MadexDemoAppUITests/Pods-MadexDemoApp-MadexDemoAppUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -645,7 +645,7 @@
 		};
 		7425C1012B0FE12C009F18E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69DAED50C41CFEBAB285A1F0 /* Pods-MadexDemoApp.debug.xcconfig */;
+			baseConfigurationReference = 93FACEBEB022808A2C6383C1 /* Pods-MadexDemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -680,7 +680,7 @@
 		};
 		7425C1022B0FE12C009F18E5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEA1BD775F02C71366917C54 /* Pods-MadexDemoApp.release.xcconfig */;
+			baseConfigurationReference = 8A54EDC49C601E8CC3AB91AF /* Pods-MadexDemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -715,7 +715,7 @@
 		};
 		7425C1042B0FE12C009F18E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D68399BE6CB2770B5E6046AE /* Pods-MadexDemoAppTests.debug.xcconfig */;
+			baseConfigurationReference = CD5C28FD7BD392B8E38D5261 /* Pods-MadexDemoAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -735,7 +735,7 @@
 		};
 		7425C1052B0FE12C009F18E5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D45076D00EC22902EF6769BD /* Pods-MadexDemoAppTests.release.xcconfig */;
+			baseConfigurationReference = F085378EBA4534A0302A0DD9 /* Pods-MadexDemoAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -755,7 +755,7 @@
 		};
 		7425C1072B0FE12C009F18E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EFCF5E8298FD20E28505E04 /* Pods-MadexDemoApp-MadexDemoAppUITests.debug.xcconfig */;
+			baseConfigurationReference = 721F1E0E85A3EA8B12880116 /* Pods-MadexDemoApp-MadexDemoAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -773,7 +773,7 @@
 		};
 		7425C1082B0FE12C009F18E5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6361E0464F3B27F6FC15FC91 /* Pods-MadexDemoApp-MadexDemoAppUITests.release.xcconfig */;
+			baseConfigurationReference = 496797DB728180C228CC1EAF /* Pods-MadexDemoApp-MadexDemoAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
