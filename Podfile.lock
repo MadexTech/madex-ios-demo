@@ -15,41 +15,41 @@ PODS:
   - DivKit_Serialization (28.13.0):
     - VGSLCommonCore (~> 2.4)
   - IronSourceSDK (7.8.0.0)
-  - MadexConsentManager (1.0.0):
+  - MadexConsentManager (1.0.3):
     - SspnetConsentManager
-  - MadexSDK (1.3.0):
+  - MadexSDK (1.4.0):
     - SspnetCore
-  - MintegralAdSDK/BidNativeAd (7.6.1):
+  - MintegralAdSDK/BidNativeAd (7.6.4):
     - MintegralAdSDK/NativeAd
-  - MintegralAdSDK/BidNewInterstitialAd (7.6.1):
+  - MintegralAdSDK/BidNewInterstitialAd (7.6.4):
     - MintegralAdSDK/BidNativeAd
     - MintegralAdSDK/NewInterstitialAd
-  - MintegralAdSDK/BidRewardVideoAd (7.6.1):
+  - MintegralAdSDK/BidRewardVideoAd (7.6.4):
     - MintegralAdSDK/BidNativeAd
     - MintegralAdSDK/RewardVideoAd
-  - MintegralAdSDK/InterstitialVideoAd (7.6.1):
+  - MintegralAdSDK/InterstitialVideoAd (7.6.4):
     - MintegralAdSDK/NativeAd
-  - MintegralAdSDK/NativeAd (7.6.1)
-  - MintegralAdSDK/NewInterstitialAd (7.6.1):
+  - MintegralAdSDK/NativeAd (7.6.4)
+  - MintegralAdSDK/NewInterstitialAd (7.6.4):
     - MintegralAdSDK/InterstitialVideoAd
     - MintegralAdSDK/NativeAd
-  - MintegralAdSDK/RewardVideoAd (7.6.1):
+  - MintegralAdSDK/RewardVideoAd (7.6.4):
     - MintegralAdSDK/NativeAd
-  - SspnetApplovinAdapter (1.1.0):
+  - SspnetApplovinAdapter (1.1.1):
     - AppLovinSDK (~> 12.2.1)
     - SspnetCore
-  - SspnetConsentManager (1.0.0)
-  - SspnetCore (1.3.0):
+  - SspnetConsentManager (1.0.3)
+  - SspnetCore (1.4.0):
     - SspnetDsp
-  - SspnetDsp (1.0.0)
-  - SspnetIronSourceAdapter (1.2.0):
+  - SspnetDsp (1.1.0)
+  - SspnetIronSourceAdapter (1.2.1):
     - IronSourceSDK (~> 7.8.0.0)
     - SspnetCore
-  - SspnetMintegralAdapter (1.2.0):
+  - SspnetMintegralAdapter (1.2.1):
     - MintegralAdSDK/BidNewInterstitialAd
     - MintegralAdSDK/BidRewardVideoAd
     - SspnetCore
-  - SspnetYandexAdapter (1.2.0):
+  - SspnetYandexAdapter (1.2.1):
     - SspnetCore
     - YandexMobileAds (~> 6.4.0)
     - YandexMobileAdsInstream (~> 0.24.0)
@@ -83,12 +83,12 @@ PODS:
     - YandexMobileMetrica/Static/Core
 
 DEPENDENCIES:
-  - MadexConsentManager (= 1.0.0)
-  - MadexSDK (= 1.3.0)
-  - SspnetApplovinAdapter (= 1.1.0)
-  - SspnetIronSourceAdapter (= 1.2.0)
-  - SspnetMintegralAdapter (= 1.2.0)
-  - SspnetYandexAdapter (= 1.2.0)
+  - MadexConsentManager (= 1.0.3)
+  - MadexSDK (= 1.4.0)
+  - SspnetApplovinAdapter (= 1.1.1)
+  - SspnetIronSourceAdapter (= 1.2.1)
+  - SspnetMintegralAdapter (= 1.2.1)
+  - SspnetYandexAdapter (= 1.2.1)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -126,16 +126,16 @@ SPEC CHECKSUMS:
   DivKit_LayoutKitInterface: 90449756ba956a7fbf3b168c01f7a0b7fc6a9de0
   DivKit_Serialization: 1b536e30c49163548bb62120320097c8ab41936d
   IronSourceSDK: ef878d01ce69a68633c7a27c89cabe0e41fcc49a
-  MadexConsentManager: 45e43a07c23c3dcf0b07a75234d6266b712e2c7b
-  MadexSDK: aa9c50098001fe9185298a1efcfcbdffe11fa19f
-  MintegralAdSDK: b9561720d5f78df3b4c84549905117b2f3789d26
-  SspnetApplovinAdapter: f4babdc621b10666a12a98b62fd3c7a3f973dce3
-  SspnetConsentManager: 74e3385870933a1b8267b1d74f5c1723b961b500
-  SspnetCore: 9ff191ca0f23fa978dcec56501cb82c5e8dda828
-  SspnetDsp: 5a9e8c85567c1fa552311c28af7b64d6c3c376af
-  SspnetIronSourceAdapter: 4e7134ac64d002c44b8e4c7557b4c2c35103b0b6
-  SspnetMintegralAdapter: cbe230b03a783535a026c5d9b7d12ecf31d1d076
-  SspnetYandexAdapter: 589e98e7606c242c63eefafc789333185136654e
+  MadexConsentManager: 5378bce36c8993ace0ec71e84d1595ed68e9cb9a
+  MadexSDK: 6f01f8c88e09cd83bc355207c6142976846917cb
+  MintegralAdSDK: 763d9a46bea9efe77d69d119d360031b3b2be0d1
+  SspnetApplovinAdapter: fdf6ac9932eb8d373030da9c7ea8016e160d2edf
+  SspnetConsentManager: 7ba0b9835231080d1559f796443c43ed1ac9fb2c
+  SspnetCore: 29788edd048fd801c6dbbab9647c9b73fc86f161
+  SspnetDsp: 2a71a9d278df038f7ed956985d37989a1c7e9202
+  SspnetIronSourceAdapter: e27bd4b09a7e01faf5ad38b8fb62b75d7853b0f3
+  SspnetMintegralAdapter: 0bc64dbbd161de7be1faa6b6b33027990d715aea
+  SspnetYandexAdapter: 9fc95e068c62474a841d628d6650c5a2794bb3f5
   VGSL_Fundamentals: 4a965a687c76a5a435d7aaeb6b7182e82408bf4c
   VGSL_Fundamentals_Tiny: feab274b20c5838fbe09b887db0f6cfa28e26a1c
   VGSLBase: 37b95dd4ea137f73e8f9a8bd8ec474d8b4d75a68
@@ -147,6 +147,6 @@ SPEC CHECKSUMS:
   YandexMobileAdsInstream: 2a5cf367ba82fc1933650596b207b8d32ddf019f
   YandexMobileMetrica: f5368ee93f286c793d73b58da00929babfc897c1
 
-PODFILE CHECKSUM: 2b971d0407914eeb6bf5e6803f05bad6b42ff5ff
+PODFILE CHECKSUM: 1ecff18a1b529187467605de643ba3324441a4f5
 
 COCOAPODS: 1.13.0
