@@ -120,7 +120,15 @@ extension RewardedViewController:RewardedDelegate {
         addLog("onRewardedClosed: Ad closed.")
     }
     
-    func onRewardedFinished(_ adPayload:AdPayload) {
-        addLog("onRewardedFinished: Ad was finished.")
+    func onRewardedVideoStarted(_ adPayload: AdPayload) {
+        addLog("onRewardedVideoStarted")
+    }
+    
+    func onRewardedVideoCompleted(_ adPayload: AdPayload) {
+        addLog("onRewardedVideoCompleted")
+    }
+    
+    func onUserRewarded(_ adPayload: AdPayload) {
+        addLog("onUserRewarded")
     }
 }
