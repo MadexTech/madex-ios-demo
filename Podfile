@@ -9,13 +9,13 @@ target 'MadexDemoApp' do
 
   # Pods for MadexDemoApp
   
-  pod 'MadexSDK', '1.6.0'
+  pod 'MadexSDK', '1.7.0'
   pod 'MadexConsentManager', '1.0.3'
   
-  pod 'SspnetYandexAdapter', '1.3.0'
-  pod 'SspnetMintegralAdapter', '1.3.0'
-  pod 'SspnetIronSourceAdapter', '1.3.0'
-  pod 'SspnetApplovinAdapter', '1.3.0'
+  pod 'SspnetYandexAdapter', '1.4.0'
+  pod 'SspnetMintegralAdapter', '1.4.0'
+  pod 'SspnetIronSourceAdapter', '1.4.0'
+  pod 'SspnetApplovinAdapter', '1.4.0'
 
   target 'MadexDemoAppTests' do
     inherit! :search_paths
