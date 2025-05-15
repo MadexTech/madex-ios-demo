@@ -44,6 +44,7 @@ class BannerViewController:UIViewController {
             Madex.setBannerCustomSettings { settings in
                 let _ = settings
                     .updateShowCloseButton(true)
+                    .updateRefreshIntervalSeconds(10)
             }
            
             Madex.loadAd(Madex.BANNER, placementName)
@@ -54,19 +55,6 @@ class BannerViewController:UIViewController {
     
     @IBAction func showAd(_ sender: Any) {
         if (Madex.isAdLoaded(Madex.BANNER, placementName)) {
-            if let bannerView = Madex.getBannerView(placementName) {
-                view.addSubview(bannerView)
-    
-                bannerView.translatesAutoresizingMaskIntoConstraints = false
-                
-                NSLayoutConstraint.activate([
-                    bannerView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
-                    bannerView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-                    bannerView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-                    bannerView.heightAnchor.constraint(equalToConstant: 50)
-                ])
-            }
-            
             Madex.showAd(
                 adType: Madex.BANNER,
                 placementName: placementName,
