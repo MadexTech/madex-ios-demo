@@ -17,8 +17,8 @@ PODS:
   - IronSourceSDK (7.8.0.0)
   - MadexConsentManager (1.0.5):
     - SspnetConsentManager (~> 1.0.5)
-  - MadexSDK (1.7.4):
-    - SspnetCore (~> 1.7.4)
+  - MadexSDK (1.7.5):
+    - SspnetCore (~> 1.7.5)
   - MintegralAdSDK/BidNativeAd (7.7.9):
     - MintegralAdSDK/NativeAd
   - MintegralAdSDK/BidNewInterstitialAd (7.7.9):
@@ -39,9 +39,9 @@ PODS:
     - AppLovinSDK (~> 13.0.0)
     - SspnetCore (~> 1.7.0)
   - SspnetConsentManager (1.0.6)
-  - SspnetCore (1.7.4):
-    - SspnetDsp (~> 1.4.4)
-  - SspnetDsp (1.4.4)
+  - SspnetCore (1.7.5):
+    - SspnetDsp (~> 1.4.5)
+  - SspnetDsp (1.4.5)
   - SspnetIronSourceAdapter (1.4.0):
     - IronSourceSDK (~> 7.8.0.0)
     - SspnetCore (~> 1.7.0)
@@ -84,7 +84,7 @@ PODS:
 
 DEPENDENCIES:
   - MadexConsentManager (= 1.0.5)
-  - MadexSDK (= 1.7.4)
+  - MadexSDK (= 1.7.5)
   - SspnetApplovinAdapter (= 1.4.0)
   - SspnetIronSourceAdapter (= 1.4.0)
   - SspnetMintegralAdapter (= 1.4.0)
@@ -127,12 +127,12 @@ SPEC CHECKSUMS:
   DivKit_Serialization: 1b536e30c49163548bb62120320097c8ab41936d
   IronSourceSDK: ef878d01ce69a68633c7a27c89cabe0e41fcc49a
   MadexConsentManager: 59fb01bab8e83d8de7681613958838456f955f27
-  MadexSDK: 2f0fd18e5eb7f72666f05b75f15e59ac0844d04a
+  MadexSDK: 5c2f9060d2e63c705a71d3b4036d5fd4603e18c2
   MintegralAdSDK: 054814f99bb7e967b8974fe635d9005b225cbe42
   SspnetApplovinAdapter: 569285a1ffea8981e7dd70cce4034ff03779af44
   SspnetConsentManager: a0ec9cbf2233a7cf2843cdd56c82f65c8f3426d3
-  SspnetCore: f28c84e745a43b6db6f0e99ea13b3761c4fb2bef
-  SspnetDsp: 285107770c19b2a065c722552a412945386b9acc
+  SspnetCore: 94cc69e9005fa2c7d0e6656547f79a88393b78be
+  SspnetDsp: ab7b703df4c107114547d50e13896db8d24abdeb
   SspnetIronSourceAdapter: dedd3f8f0696e769ed0e1b5c4d068dfe1cad3f48
   SspnetMintegralAdapter: ee40cffa2cdc785dbad0b82d6717473389cfc793
   SspnetYandexAdapter: 60121fe15999829715962fc691b38b731b0cd9d9
@@ -147,6 +147,6 @@ SPEC CHECKSUMS:
   YandexMobileAdsInstream: 2a5cf367ba82fc1933650596b207b8d32ddf019f
   YandexMobileMetrica: f5368ee93f286c793d73b58da00929babfc897c1
 
-PODFILE CHECKSUM: 7929fd8d750cdcb5b40b556904e7fd01f75c5d7e
+PODFILE CHECKSUM: 6d7892f27fe5e804b49a033c60d6ca26cb31d23b
 
 COCOAPODS: 1.16.2

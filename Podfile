@@ -9,7 +9,7 @@ target 'MadexDemoApp' do
 
   # Pods for MadexDemoApp
   
-  pod 'MadexSDK', '1.7.4'
+  pod 'MadexSDK', '1.7.5'
   pod 'MadexConsentManager', '1.0.5'
   
   pod 'SspnetYandexAdapter', '1.4.0'
